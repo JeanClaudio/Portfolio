@@ -336,18 +336,35 @@ header{
 
 .projetos{
     display: flex;
+    justify-content:space-evenly;
+    
 }
 
 .card{
-    width: 20rem;
-    height: 30rem;
+    width: 18rem;
+    height: 25rem;
+        
 }
 
 .card-img-wrapper{
     width: 100%;
-    height: 100%;
+    height: 50%;
+    background-color: black;
+    border-radius: .5rem;
 }
 
 .card-img-wrapper img{
     object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: .5rem;
+    opacity: .8;
 }
+
+.card-info{
+    position: absolute;
+    bottom: 0;
+    padding: 2rem;
+    text-shadow: 0 0.1rem 0.3rem black;
+}
+ 
