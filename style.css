@@ -336,8 +336,7 @@ header{
 
 .projetos{
     display: flex;
-    justify-content:space-evenly;
-    
+    justify-content: space-evenly;
 }
 
 .card{
@@ -348,8 +347,8 @@ header{
 
 .card-img-wrapper{
     width: 100%;
-    height: 50%;
-    background-color: black;
+    height: 100%;
+    background-color: rgb(100, 100, 100);
     border-radius: .5rem;
 }
 
@@ -363,8 +362,12 @@ header{
 
 .card-info{
     position: absolute;
-    bottom: 0;
-    padding: 2rem;
-    text-shadow: 0 0.1rem 0.3rem black;
+    width: 18rem;
+    bottom: -77rem;
+
 }
+
+
+
+ 
  
